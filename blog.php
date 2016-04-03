@@ -2,49 +2,16 @@
 <html lang="en">
 <!--Head-->
 	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>DECO1100 Design Thinking</title>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
-		<link href="css/font-awesome.css" rel="stylesheet">
-		<link href="css/font-awesome.min.css" rel="stylesheet">
-		<link href="css/typicons.min.css" rel="stylesheet">
-		<link href="css/styles.css" rel="stylesheet">
+		<?php
+			require 'all_require.php';
+		?>
 	</head>
 
 <!--Body Content-->
 <body>
-<header class="navbar navbar-default navbar-fixed-top" role="banner">
-  <div class="container">
-		<div class="navbar-header">
-		  <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		</div>
-	  
-	  
-    <nav class="collapse navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-		  <li>
-		  	 <a href="index.html">Home</a>
-		  </li>
-          <li>
-          	 <a href="prototype.html">Prototype</a>
-          </li>
-          <li>
-             <a href="blog.html" class="navbar-brand">Blog</a>
-          </li>
-      </ul>
-      <ul class="nav navbar-right navbar-nav">
-        <img src="img/llama2.jpg" class="img-circle" style="padding-top:10px">
-      </ul>
-    </nav>
-  </div>
-</header>
+<?php
+	require 'header_blog.php';
+?>
 
 <!--TeamName-->
 <div id="masthead">  
@@ -69,7 +36,7 @@
 		  <div class="row">    
             <br>
             <div class="col-md-2 col-sm-3 text-center">
-              <a class="story-img" href="#"><img src="img/tc2.png" style="width:100px;height:100px" class="img-circle"></a>
+              <a class="story-img" href="img/tc2.png" data-lightbox="image-1" data-title="My caption"><img src="img/tc2.png" style="width:100px;height:100px" class="img-circle"></a>
             </div>
             <div class="col-md-10 col-sm-9">
               <h3>Team Charter</h3>
@@ -78,7 +45,7 @@
                   <p>
                     In the team charter, we summarised what our expectations and prospects were for the project at hand. Additionally, we assigned specific roles to fit each team member's strengths. In turn, the team charter should act as a basin of our actions in relation to the assignment.
                     </p>
-                  <p class="lead"><button class="btn btn-default">Read More</button></p>
+					<p class="lead"><button class="btn btn-default"><a href="img/tc2.png" data-lightbox="image-1" data-title="My caption">Read More</a></button></p>
                   <p class="pull-right"><span class="label label-default">Assignment</span></p>
                   <ul class="list-inline"><li><a href="#">11 March 2016</a></li></ul>
                   </div>
@@ -99,7 +66,7 @@
               <div class="row">
                 <div class="col-xs-9">
                   <p>The UQ survey was mostly focused on accumulating enough data in order to gauge an insight into what the "temperature" of the Saint Lucia Campus. ... </p>
-                  <p class="lead"><button class="btn btn-default">Read More</button></p>
+					<p class="lead"><button class="btn btn-default"><a href="img/survey.png" data-lightbox="image-2" data-title="My caption">Read More</a></button></p>
                   <p class="pull-right"><span class="label label-default">Research</span></p>
                   <ul class="list-inline"><li><a href="#">16 March 2016</a></li></ul>
                   </div>
@@ -120,7 +87,7 @@
               <div class="row">
                 <div class="col-xs-9">
                   <p> Introduce this section with a paragraph outlining the breadth of original research you have con- ducted. This should present some short examples of raw data (e.g. interview transcripts, observation logs), the themes that emerged from the research, insights that were gained, and design directions that were identified from the research (4 pages max: interim 18/03). </p>
-                  <p class="lead"><button class="btn btn-default">Read More</button></p>
+					<p class="lead"><button class="btn btn-default"><a href="img/research.png" data-lightbox="image-3" data-title="My caption">Read More</a></button></p>
                   <p class="pull-right"><span class="label label-default">Research</span></p>
                   <ul class="list-inline"><li><a href="#">18 March 2016</a></li></ul>
                   </div>
@@ -141,7 +108,7 @@
               <div class="row">
                 <div class="col-xs-9">
                   <p>Concept Card Progress </p>
-                  <p class="lead"><button class="btn btn-default">Read More</button></p>
+					<p class="lead"><button class="btn btn-default"><a href="//placehold.it/100" data-lightbox="image-4" data-title="My caption">Read More</a></button></p>
                   <p class="pull-right"><span class="label label-default">Unknown</span></p>
 					<ul class="list-inline"><li><a href="#">Unknown</a></li></ul>
                   </div>
@@ -165,29 +132,13 @@
 <hr>
 
 <!--footer-->
-<footer>
-  <div class="container">
-		<div class="row">
-		  <div class="col-md-2 col-md-offset-5">
-			<ul class="list-inline" style="padding-left:38px;">
-			  <li><a href="https://www.facebook.com/groups/1680524958901735/?ref=bookmarks"><i class="icon-facebook icon-2x"></i></a></li>
-			  <li><a href="https://drive.google.com/folderview?id=0Bx8j3vmmwFOWUHJDcFlGd3VKSGs&ths=true&usp=docs_home&ddrp=1#"><i class="icon-google-plus icon-2x"></i></a></li>
-			  <li><a href="https://github.com/vickyhaw94/TeamLlama"><i class="icon-github icon-2x"></i></a></li>
-			</ul>
-		  </div>
-
-		<div class="row">
-			<div class="col-md-4 col-md-offset-4">
-				<p style="text-align:center">Copyright 2016 by Team Llama <i class="icon-thumbs-up"></i></p>      
-			</div>
-		</div>
-	  </div>
-	</div>
-</footer>
+<?php
+	require 'footer.php';
+?>
 	
 <!-- script references -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-	
+<script src="js/lightbox.js"></script>
 </body>
 </html>

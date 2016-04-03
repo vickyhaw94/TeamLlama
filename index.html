@@ -36,6 +36,18 @@
         </li>
       </ul>
       <ul class="nav navbar-right navbar-nav">
+		  <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm"><a href="#">Login</a></button>
+		  <div class="modal fade bs-example-modal-sm" data-backdrop="" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <?php
+	require 'loginForm.php';
+		?>
+
+    </div>
+  </div>
+</div>
+		
         <img src="img/llama2.jpg" class="img-circle" style="padding-top:10px">
       </ul>
     </nav>
