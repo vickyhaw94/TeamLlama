@@ -9,8 +9,8 @@
 
 <!--Body content-->
 <body>
+	
 <div class="container">    
-        
     <div class="login col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3"> 
 		<div class="index_image">
 			 <img src="img/llama.png">
@@ -46,9 +46,9 @@
         </div>  
     </div>
 </div>
+
 <!-- script references -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-	
 </body>
 </html>
